@@ -1,0 +1,83 @@
+* {
+    margin :0;
+    padding:0;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+li {
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    width: 70px;
+    text-align: center;
+}
+
+#one {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70px;
+    text-align: center;
+}
+
+img {
+    width: 290px;
+    height: 400px;
+}
+
+#divartists {
+    width: 200px;
+    margin-left: 10px;
+}
+
+#artists {
+    list-style: none;
+}
+
+#cards-lists {
+    width: 200px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+#cards-details {
+    margin-left: 300px;
+}
+
+#card-description {
+    width: 850px;
+}
+
+.bg-img-W {
+    background-color: white;
+}
+
+.bg-img-U {
+    background-color: blue;
+}
+
+.bg-img-R {
+    background-color: red;
+}
+
+.bg-img-B {
+    background-color: black;
+    color :white;
+}
+
+.bg-img-G {
+    background-color: green;
+}

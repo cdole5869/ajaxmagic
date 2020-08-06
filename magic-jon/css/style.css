@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: aliceblue;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+body {
+    background-image: URL('../img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #160a0a;
+}
+
+#cards-list li {
+    list-style: none;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+header {
+    height: 10vh;
+    
+}
+
+.cards {
+    height: 90vh;
+}
+
+.cards>div, .cards>div>div {
+    height: 100%;
+} 
+
+.cards-list {
+    width: 25%;
+}
+
+#card-details {
+    width: 75%;
+}
+
+#cards-list {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-name {
+    text-align: center;
+    color: aliceblue;
+    height: 10%;
+}
+
+.details {
+    height: 90%;
+}
+
+#card-img {
+    width: 450px;
+    border-radius: 4%;
+}
+
+.text, .image {
+    width: 50%; 
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text>p {
+    margin-bottom: 20px;
+    background-color: #f0f8ff52;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.text>div>p {
+    background-color: #f0f8ff52;
+    padding: 10px;
+}
+
+.bg-img-W {
+    background-color: white;
+}
+
+.bg-img-B {
+    background-color: black;
+    color: white;
+}
+
+.bg-img-U {
+    background-color: blue;
+}
+
+.bg-img-G {
+    background-color: green;
+}
+
+.bg-img-R {
+    background-color: red;
+}
+
+.bg-img-N {
+    background-color: #eca850;
+}
+
+.icon {
+    width: 25px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
+    width: 50px;
+    height: 30px;
+}
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

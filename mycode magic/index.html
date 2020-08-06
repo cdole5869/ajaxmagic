@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <title>Magic</title>
+    </head>
+    <body>
+        <h1>Magic the Gathering</h1>
+
+            <div class="flex">
+
+                <div>
+                    <ul id="cards-lists"></ul>
+                    <button id=one>Précédent</button>
+                    <button onclick="next()">Suivant</button>
+                </div>
+
+                <div id="divartists">
+                    <ul id="artists"></ul>
+                    <button>Précédent</button>
+                    <button onclick="next()">Suivant</button>
+                </div>
+
+                <div id="cards-details" class="none">
+                    <h2 id="card-name"></h2>
+                    <div>
+                        <div>
+                            <img id="card-img" src="">
+                        </div>
+
+                        <div>
+                            <ul id="artists"></ul>
+                        </div>
+
+                        <div>
+                            <p>Dessinateur : <span id="card-artist"></span></p>
+                            <p>Type : <span id="card-type"></span></p>
+                            <p>Color : <span id="card-color"></span></p>
+                        </div>
+
+                    </div>
+                    <div id="card-description"></div>
+                </div>
+
+            </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
